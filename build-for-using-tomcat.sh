@@ -5,7 +5,7 @@ git submodule update
 cd jenkins
  
 mvn clean
-mvn install -Dmavem.test.skip=true
+mvn install -Dmaven.test.skip=true
  
 cd war # this is important ! :)
  
